@@ -35,7 +35,7 @@ nav p{
     background-color:  #2f3132;
     border-radius: 0 0 10px 10px;
     width: 100px;
-    height: 220px;
+    height: 140px;
     margin: 0 50px;
     overflow: hidden;
     display: flex;
@@ -45,15 +45,11 @@ nav p{
     color: #fcfcfc;
     text-transform: lowercase;
     position: absolute;
-    top: 140px;
+    top: -60px;
     left: 15px;
     right: 15px;
-    transition: all 1.3s linear;
-    z-index: 2;
 }
-.menu_items p:hover{
-    top: 20px;
-}
+
 
 /* menu social */
 header{
@@ -346,6 +342,14 @@ footer a{
     }
     footer{
         text-align: center;
+    }
+    .menu_items:hover{
+        top: -60px;
+    }
+    .menu_items{
+        top: 60px;
+        transition: all 1.3s linear;
+        z-index: 2;
     }
 }
 
