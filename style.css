@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 body{
-    font-family: apertura, sans-serif;
+    font-family: 'mulish', sans-serif;
     background-color: #0c0c0c;
-    color: #989b9e
+    color: #c9c9c9
 }
 h1, h2, h3, h4, h5, h6{
     font-weight: normal;
@@ -95,6 +95,7 @@ header{
 /* home */
 h3{
     padding: 10px 0 20px 0;
+    font-size: 110%;
 }
 .yellow_text{
     color: #fff35f;
@@ -135,7 +136,7 @@ h3{
 h1{
     text-align: right;
     font-size: 250%;
-    padding: 0 30px;
+    padding: 10px 30px 0 30px;
 }
 h4{
     padding: 20px 30px 0 30px;
@@ -177,9 +178,6 @@ h4{
     text-align: center;
     padding: 10px;
 }
-h3{
-    font-size: 110%;
-}
 .square_box img{
     padding-top: 5px;
 }
@@ -199,7 +197,7 @@ ul{
     height: 25px;
     border-radius: 20px;
     padding: 8px;
-    margin: 2px;
+    margin: 20px 2px;
     display: flex;
     align-items: center;
     font-size: 80%;
@@ -218,7 +216,7 @@ ul{
 }
 .product_img{
     background-size: cover;
-    height: 90px;
+    height: 80px;
     text-align: right;
     padding: 10px;
 }
@@ -243,22 +241,29 @@ ul{
 .product_title{
     text-align: center;
 }
+.product_title h5{
+    padding: 10px 0 20px 0;
+    font-size: 95%;
+}
 .product_title p{
-    margin: -23px;
+    margin: -15px;
+    font-size: 90%;
 }
 
 /* servizi */
 .service_text{
-    padding: 30px;
+    padding: 20px 30px;
 }
 .rectangular_box--1{
     background-image: -webkit-linear-gradient(left, #f7931e 0%, #fff35f 100%);
+    color: #2f3132;
 }
 .rectangular_box--2, .rectangular_box--4{
     background: #2f3132;
 }
 .rectangular_box--3{
     background-image: -webkit-linear-gradient(left, #8fe4ea 0%, #9ddd73 100%);
+    color: #2f3132;
 }
 
 /* news */
@@ -316,13 +321,9 @@ footer a{
 
 /* media query */
 @media (min-width:800px){
-    .box{
+    .div-main{
         max-width: 800px;
-    }
-    .container{
-        max-width: 750px;
-        display: flex;
-        justify-content: center;
+        margin: 0 auto;
     }
     .category{
         height: 30px;
@@ -342,6 +343,9 @@ footer a{
     .form_container{
         display: flex;
         justify-content: space-evenly;
+    }
+    footer{
+        text-align: center;
     }
 }
 
