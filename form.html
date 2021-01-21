@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unisciti a noi</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yzy5oow.css">
+    <script src="https://kit.fontawesome.com/a8f17e5631.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="aligned_menu_logo">
+        <div class="box_menu">
+            <div class="menu_items">
+                <p>me<br>nu</p>
+                <br>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="artigiani.html">artigiani</a></li>
+                    <li><a href="prodotti.html">prodotti</a></li>
+                    <li><a href="servizi.html">servizi</a></li>
+                    <li><a href="news.html">news</a></li>
+                </ul>
+            </div>  
+        </div>
+        <img src="immagini/logo.png" alt="logo">
+    </nav>
+    <main class="form_container">
+        <div>
+            <h1 class="form_headline">I tuoi dati personali</h1>
+            <form action="#">
+
+                <input 
+                    type="text" 
+                    name="name"
+                    placeholder="Nome"
+                    required
+                    minlength="4" />
+
+                <input 
+                    type="text" 
+                    name="surname"
+                    placeholder="Cognome"
+                    required
+                    minlength="4" />
+
+                <input 
+                    type="email" 
+                    name="mail"
+                    placeholder="Email"
+                    required />
+
+                <input 
+                    type="tel"
+                    name="number"
+                    placeholder="Numero di telefono"
+                    required
+                    maxlength="10" />
+            </form>
+        </div>
+
+        <div>
+            <h1 class="form_headline">Il tuo negozio</h1>
+            <form action="#">
+
+                <input 
+                    type="text" 
+                    name="shop_name"
+                    placeholder="Nome del negozio"
+                    required
+                    minlength="4" />
+
+                <input 
+                    type="text" 
+                    name="shop_address"
+                    placeholder="Indirizzo e numero civico"
+                    required
+                    minlength="4" />
+                
+                <input 
+                    type="text" 
+                    name="shop_country"
+                    placeholder="Città o paese"
+                    required
+                    minlength="4" />
+
+                <input 
+                    type="tel"
+                    name="shop_cap"
+                    placeholder="CAP"
+                    required
+                    maxlength="5" />
+
+                <select name="shop_type">
+                    <option value="alimentare">Alimentare</option>
+                    <option selected value="gioielleria">Gioielleria</option>
+                    <option value="casalingo">Casalingo</option>
+                    <option value="giardinaggio">Giardinaggio</option>
+                </select>
+
+            </form>
+        </div>
+        
+    </main>
+</body>
+</html>
