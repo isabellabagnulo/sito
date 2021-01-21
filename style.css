@@ -122,10 +122,10 @@ h3{
     width: 170px;
 }
 .button a{
-    color: #989b9e;
+    color: #2f3132;
 }
 .button a:hover{
-    color: #2f3132;
+    color: #c9c9c9;
 }
 
 /* artigiani */
@@ -144,21 +144,29 @@ h4{
 }
 .rectangular_box{
     background-image: -webkit-linear-gradient(left, #f7931e 0%, #fff35f 100%);
-    height: 150px;
+    height: 180px;
     border-radius: 30px;
     margin: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 .headline{
     padding: 20px;
 }
 .headline h2{
     font-size: 150%;
+    padding-bottom: 10px;
+}
+.headline_artisans h2{
+    font-size: 190%;
+}
+.headline_artisans p{
+    color: #fcfcfc;
 }
 .icon{
-    padding: 15px 15px 0 0;
+    padding: 30px 10px 0 0;
 }
 .container{
     display: flex;
@@ -235,14 +243,17 @@ ul{
     background-image: url(immagini/prodotto6.jpg);
 }
 .product_title{
+    height: 65px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 .product_title h5{
-    padding: 10px 0 20px 0;
     font-size: 95%;
 }
 .product_title p{
-    margin: -15px;
     font-size: 90%;
 }
 
@@ -312,7 +323,7 @@ footer{
     margin: 20px;
 }
 footer a{
-    color: #989b9e;
+    color: #c9c9c9;
 }
 
 /* media query */
