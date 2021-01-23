@@ -222,7 +222,7 @@ ul{
     background-size: cover;
     height: 80px;
     text-align: right;
-    padding: 10px;
+    padding: 5px;
 }
 .product_img--1{
     background-image: url(immagini/prodotto1.jpg);
@@ -259,7 +259,7 @@ ul{
 
 /* servizi */
 .service_text{
-    padding: 20px 30px;
+    padding: 20px 30px 10px 30px;
 }
 .rectangular_box--1{
     background-image: -webkit-linear-gradient(left, #f7931e 0%, #fff35f 100%);
@@ -361,15 +361,20 @@ footer a{
         top: 60px;
         transition: all 1.3s linear;
         z-index: 2;
+        
+    }
+    .form_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 /* form */
 .form_headline{
     text-align: left;
-    padding: 30px;
+    padding-bottom: 30px;
 }
-label, input{
+input, select{
     display: block;
     margin: 20px;
 }
@@ -380,5 +385,15 @@ input, select{
     border-radius: 20px;
     padding: 15px;
 }
+form{
+    margin-bottom: 20px;
+}
 
+.center_h1{
+    text-align: center;
+    padding: 50px;
+}
+.muratore{
+    text-align: center;
+}
 
