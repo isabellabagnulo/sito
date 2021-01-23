@@ -50,7 +50,6 @@ nav p{
     right: 15px;
 }
 
-
 /* menu social */
 header{
     display: flex;
@@ -332,6 +331,14 @@ footer a{
         max-width: 800px;
         margin: 0 auto;
     }
+    .menu_items{
+        top: 60px;
+        transition: all 1.3s linear;
+        z-index: 2;
+    }
+    .menu_items:hover{
+        top: -60px;
+    }
     .category{
         height: 30px;
         padding: 10px;
@@ -353,15 +360,6 @@ footer a{
     }
     footer{
         text-align: center;
-    }
-    .menu_items:hover{
-        top: -60px;
-    }
-    .menu_items{
-        top: 60px;
-        transition: all 1.3s linear;
-        z-index: 2;
-        
     }
     .form_container{
         display: grid;
@@ -387,6 +385,13 @@ input, select{
 }
 form{
     margin-bottom: 20px;
+}
+#tos input{
+    display: inline;
+    width: auto;
+}
+button{
+    display: block;
 }
 
 .center_h1{
