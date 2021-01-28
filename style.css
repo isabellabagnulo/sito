@@ -48,7 +48,6 @@ nav p{
 }
 .menu_items{
     color: #fcfcfc;
-    text-transform: lowercase;
     position: absolute;
     top: -60px;
     left: 15px;
@@ -63,9 +62,8 @@ header{
 }
 .menu_social{
     padding-top: 50px;
-    margin-right: -40px;
     position: absolute;
-    right: -5px;
+    right: -45px;
 }
 .menu_social li{
     border-radius: 50px;
@@ -119,7 +117,6 @@ h3{
     background-color: #fff35f;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
     width: 170px;
 }
 .button a{
@@ -245,7 +242,8 @@ ul{
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
 }
 .product_title h5{
     font-size: 95%;
@@ -381,7 +379,7 @@ form{
 }
 .form_headline{
     text-align: left;
-    padding-bottom: 30px;
+    padding-top: 30px;
 }
 input, select, label, button{
     display: block;
@@ -401,7 +399,7 @@ input, select{
 
 /* pagina artigiano */
 .artisan_box{
-    padding: 30px 30px 10px 30px;
+    padding: 30px 0;
     margin: 20px 30px 30px 30px;
     background-image: url(immagini/sfondo.png);
     background-size: 60%;
@@ -436,9 +434,31 @@ iframe{
 .product_img--9{
     background-image: url(immagini/cannolo4.jpg);
 }
-.p_box{
-    margin-top: 30px;
-    margin-bottom: 10px;
+
+/*prodotto singolo*/
+.shop_name{
+    text-align: right;
+}
+.product_photo{
+    background-image: url(immagini/prodotto1.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 150px;
+    width: 200px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.input_product{
+    background-color: #1f1f1f;
+    width: 80px;
+}
+.caption_box{
+    margin: 30px;
     padding: 30px;
 }
 
