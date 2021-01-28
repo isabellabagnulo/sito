@@ -25,6 +25,11 @@ li{
     list-style: none;
 }
 
+.box{
+    border-radius: 30px;
+    background-color: #2f3132
+}
+
 /* menu */
 nav p{
     text-transform: uppercase;
@@ -95,23 +100,20 @@ h3{
 .yellow_text{
     color: #fff35f;
 }
-.box{
-    border-radius: 30px;
+.box_home{
     background-color: #1f1f1f;
     background-image: url(immagini/sfondo.png);
     background-size: 60%;
     margin: -50px 30px 30px 30px;
 }
 .card{
-    border-radius: 30px;
-    background-color: #2f3132;
     padding: 30px;
     margin: 30px;
 }
 .button_container{
     text-align: center;
 }
-.button{
+.button, button{
     display: inline-block;
     text-align: center;
     background-color: #fff35f;
@@ -144,7 +146,6 @@ h4{
 .rectangular_box{
     background-image: -webkit-linear-gradient(left, #f7931e 0%, #fff35f 100%);
     height: 180px;
-    border-radius: 30px;
     margin: 10px 30px;
     display: flex;
     align-items: center;
@@ -158,11 +159,11 @@ h4{
     font-size: 150%;
     padding-bottom: 10px;
 }
-.headline_artisans h2{
-    font-size: 190%;
-}
 .headline_artisans p{
     color: #fcfcfc;
+}
+.headline_artisans h2{
+    font-size: 190%;
 }
 .icon{
     padding: 30px 10px 0 0;
@@ -173,8 +174,6 @@ h4{
     justify-content: center;
 }
 .square_box{
-    background-color: #2f3132;
-    border-radius: 30px;
     height: 150px;
     width: 150px;
     margin: 10px;
@@ -184,8 +183,9 @@ h4{
 .square_box img{
     padding-top: 5px;
 }
-.square_box p{
+.square_box p, .title_news p{
     margin: -20px;
+    color: #c9c9c9;
 }
 
 /* prodotti */
@@ -212,8 +212,6 @@ ul{
 .product_card{
     height: 150px;
     width: 150px;
-    background-color: #2f3132;
-    border-radius: 30px;
     overflow: hidden;
     margin: 10px;
 }
@@ -276,8 +274,6 @@ ul{
 .news_card{
     height:150px ;
     width:300px ;
-    background-color: #2f3132;
-    border-radius: 30px;
     overflow: hidden;
     margin: 10px;
 }
@@ -365,35 +361,88 @@ footer a{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    .headline_artisan{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .map_box2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .map_box p{
+        text-align: left;
+        line-height: 50px;
+    }
 }
 
 /* form */
+form{
+    margin-bottom: 20px;
+}
 .form_headline{
     text-align: left;
     padding-bottom: 30px;
 }
-input, select{
+input, select, label, button{
     display: block;
     margin: 20px;
 }
 input, select{
     background-color: #2f3132;
-    height: 40px;
-    width: 300px;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 15px;
-}
-form{
-    margin-bottom: 20px;
+    color: #c9c9c9;
+    width: 250px;
 }
 #tos input{
     display: inline;
     width: auto;
 }
-button{
-    display: block;
+
+/* pagina artigiano */
+.artisan_box{
+    padding: 30px 30px 10px 30px;
+    margin: 20px 30px 30px 30px;
+    background-image: url(immagini/sfondo.png);
+    background-size: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.artisan_photo{
+    background-image: url(immagini/mariateresa.jpg);
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+}
+.map_box{
+    text-align: center;
+    margin: 30px;
+}
+.map_box p{
+    padding: 10px 0;
+}
+iframe{
+    height: 300px;
+    width: 300px;
+}
+.product_img--7{
+    background-image: url(immagini/cannolo2.jpg);
+}
+.product_img--8{
+    background-image: url(immagini/cannolo3.jpg);
+}
+.product_img--9{
+    background-image: url(immagini/cannolo4.jpg);
+}
+.p_box{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 30px;
 }
 
+/* pagina in costruzione */
 .center_h1{
     text-align: center;
     padding: 50px;
