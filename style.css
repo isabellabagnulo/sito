@@ -125,6 +125,9 @@ h3{
 .button a:hover{
     color: #c9c9c9;
 }
+.rectangular_box--5 .icon{
+    padding: 3px;
+}
 
 /* artigiani */
 h1{
@@ -268,7 +271,7 @@ ul{
     color: #2f3132;
 }
 .rectangular_box--5{
-    background-image: -webkit-linear-gradient(left, #9ddd73 0%, #8fe4ea 100%);
+    background-image: -webkit-linear-gradient(left, #fff35f 0%, #9ddd73 100%);
 }
 
 /* news */
