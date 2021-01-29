@@ -24,7 +24,6 @@ a:hover{
 li{
     list-style: none;
 }
-
 .box{
     border-radius: 30px;
     background-color: #2f3132
@@ -91,18 +90,18 @@ header{
 }
 
 /* home */
+.box_home{
+    background-color: #1f1f1f;
+    background-image: url(immagini/sfondo.png);
+    background-size: 60%;
+    margin: -50px 30px 30px 30px;
+}
 h3{
     padding: 10px 0 20px 0;
     font-size: 110%;
 }
 .yellow_text{
     color: #fff35f;
-}
-.box_home{
-    background-color: #1f1f1f;
-    background-image: url(immagini/sfondo.png);
-    background-size: 60%;
-    margin: -50px 30px 30px 30px;
 }
 .card{
     padding: 30px;
@@ -117,7 +116,7 @@ h3{
     background-color: #fff35f;
     border-radius: 10px;
     padding: 20px;
-    width: 170px;
+    width: 160px;
 }
 .button a{
     color: #2f3132;
